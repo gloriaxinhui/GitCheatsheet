@@ -1,6 +1,6 @@
-Git Cheat Sheet
+# Git Cheat Sheet
 
-1. Glossary of Terms
+## 1. Glossary of Terms
   * branch: an active line of development
   * commit:
     * (noun) a single point in the Git history; the entire history of a project is represented as a set of interrelated commits
@@ -14,19 +14,19 @@ Git Cheat Sheet
   * repository: a collection of project files, documentation, and revision history
 
 
-2. Category 2
+## 2. Category 2
   * Info: Description
 
-3. Category 3
+## 3. Category 3
 
 
-4. Category 4
+## 4. Category 4
 
 
-5. Category 5
+## 5. Category 5
 
 
-6. Category 6
+## 6. Category 6
 
 
-7. Category 7
+## 7. Category 7
