@@ -14,8 +14,27 @@
   * repository: a collection of project files, documentation, and revision history
 
 
-## 2. Category 2
-  * Info: Description
+## 2. Downloading repos into personal computers and modifying
+  * Download repository on your git cmd:
+  * C:\Users\gzhang>git config --global user.name "your username"
+  * C:\Users\gzhang>git config --global user.email yourusername@gmail.com
+  * C:\Users\gzhang>git clone https://github.com/yourusername/hello-world.git
+  
+  * Try this if it doesn't work:
+   * git config --system http.sslverify false
+   *get director: dir
+  * get into hello world
+   * cd hello-world
+   * dir
+
+  * create new file:
+   * echo "Nother new file!!!">>newfile.txt
+   * dir
+
+ * git add newfile.txt
+
+ * Add comment:
+   * git commit -m "created a new file for text"
 
 ## 3. Category 3
 
