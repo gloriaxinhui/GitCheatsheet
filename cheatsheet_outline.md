@@ -14,27 +14,32 @@
   * repository: a collection of project files, documentation, and revision history
 
 
-## 2. Downloading repos into personal computers and modifying
-  * Download repository on your git cmd:
+## 2. Downloading a working copy, making changes, and pushing those changes back to the github repository
+  * Download repository using Git CMD (a command line shell that is installed with Git for Windows):
   * C:\Users\gzhang>git config --global user.name "your username"
   * C:\Users\gzhang>git config --global user.email yourusername@gmail.com
   * C:\Users\gzhang>git clone https://github.com/yourusername/hello-world.git
   
   * Try this if it doesn't work:
-   * git config --system http.sslverify false
-   *get director: dir
-  * get into hello world
-   * cd hello-world
-   * dir
+    * git config --system http.sslverify false
+    * get director: dir
+    
+  * Change directory into hello-world
+    * cd hello-world
+    * dir
 
-  * create new file:
-   * echo "Nother new file!!!">>newfile.txt
-   * dir
+  * Create new file:
+    * echo "Nother new file!!!" >> newfile.txt
+    * dir
 
- * git add newfile.txt
+  * Add the new file into the working copy
+    * git add newfile.txt
 
- * Add comment:
-   * git commit -m "created a new file for text"
+  * Commit any changes you've made, and comment on those changes
+    * git commit -a -m "created a new file for text"
+
+  * Push changes back to the github repository
+    * git push
 
 ## 3. Category 3
 
