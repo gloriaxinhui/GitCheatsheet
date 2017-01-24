@@ -40,6 +40,9 @@
 
   * Push changes back to the github repository
     * git push
+    
+  * removing a directory (get out of the folder first)
+    * rmdir /s / q itc-134
 
 ## 3. Setting Up Git for Windows
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
