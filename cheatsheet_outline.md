@@ -32,6 +32,10 @@
   * Create new file:
     * echo "Another new file!!!" >> newfile.txt
     * dir
+    * this also allows you to add more to the file
+  
+  *Overwriting a file
+    * echo "Overwriting new file!!!">newfile.txt
 
   * Add the new file into the working copy
     * git add newfile.txt
@@ -57,6 +61,8 @@
    * cd itc134
   * get out from an existing directory/ folder:
    * cd ..
+  * go back up to last directory/folder:
+   * cd .
 
 
 ## 5. Branch Diagram
