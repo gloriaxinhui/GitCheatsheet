@@ -1,4 +1,5 @@
- # Git Cheat Sheet
+
+# Git Cheat Sheet
 
 ## 1. Glossary of Terms
   * branch: an active line of development
@@ -29,7 +30,7 @@
     * dir
 
   * Create new file:
-    * echo "Nother new file!!!" >> newfile.txt
+    * echo "Another new file!!!" >> newfile.txt
     * dir
 
   * Add the new file into the working copy
@@ -60,7 +61,16 @@
 
 ## 5. Branch Diagram
   * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
-
+ * tells you what branch you are on:
+  * git branch
+ * creating a new branch:
+  * git branch test
+ * deleting a branch:
+  * git branch -d test
+ * switch branch:
+  * git checkout test
+ * merge branch:
+  * git merge master
 
 ## 6. Category 6
 
