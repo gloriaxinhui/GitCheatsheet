@@ -57,7 +57,8 @@
    * cd ..
 
 
-## 5. Category 5
+## 5. Branch Diagram
+  * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
 
 
 ## 6. Category 6
