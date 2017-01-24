@@ -46,7 +46,13 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 
-## 4. Category 4
+## 4. Basic windows command
+  * get information from a directory:
+   * dir
+  * get into an existing directory/ folder:
+   * cd itc134
+  *back out from n existing directory/ folder:
+   * cd ..
 
 
 ## 5. Category 5
