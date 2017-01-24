@@ -46,9 +46,7 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 
-## 4. Basic windows command on comandline
-  * list commonds:
-   * ls
+## 4. Basic windows commands on comandline
   * get information from a directory:
    * dir
   * get into an existing directory/ folder:
@@ -64,4 +62,6 @@
 ## 6. Category 6
 
 
-## 7. Category 7
+## 7. Basic Linux commands on comandline
+  * list commonds:
+   * ls
