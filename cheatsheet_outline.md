@@ -1,4 +1,4 @@
-# Git Cheat Sheet
+ # Git Cheat Sheet
 
 ## 1. Glossary of Terms
   * branch: an active line of development
@@ -46,12 +46,14 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 
-## 4. Basic windows command
+## 4. Basic windows command on comandline
+  * list commonds:
+   * ls
   * get information from a directory:
    * dir
   * get into an existing directory/ folder:
    * cd itc134
-  *back out from n existing directory/ folder:
+  * get out from an existing directory/ folder:
    * cd ..
 
 
