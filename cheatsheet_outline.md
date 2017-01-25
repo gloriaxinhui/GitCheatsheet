@@ -48,13 +48,15 @@
 
 ## 4. Basic windows command on comandline
   * list commonds:
-   * ls
+   * ls (Linux) help (Windows)
   * get information from a directory:
-   * dir
+   * dir (W) 
   * get into an existing directory/ folder:
    * cd itc134
   * get out from an existing directory/ folder:
    * cd ..
+  * create new file
+   * echo "file content" >> filename.txt
 
 
 ## 5. Branch Diagram
