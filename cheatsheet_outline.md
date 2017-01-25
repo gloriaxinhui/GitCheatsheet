@@ -62,6 +62,7 @@
 
 
 ## 6. Category 6
+git clone http://github.com/*user*/*respository*.git
 
 
 ## 7. Category 7
