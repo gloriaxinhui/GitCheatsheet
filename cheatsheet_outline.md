@@ -26,7 +26,7 @@
     * view directory: dir
     
   * Downloading the work repository:
-    * git clone http://github.com/user/respository.git
+    * C:\Users\yourusername>git clone http://github.com/user/respository.git
     
   * Change directory into hello-world
     * cd hello-world
@@ -66,7 +66,6 @@
 
 
 ## 5. Branch Diagram
-  * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
   * tells you what branch you are on:
     * git branch
   * creating a new branch:
