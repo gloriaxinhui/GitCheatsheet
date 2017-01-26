@@ -61,7 +61,7 @@
    * cd itc134
   * get out from an existing directory/ folder:
    * cd ..
-  * go back up to last directory/folder:
+  *going back to last/previous directory/folder:
    * cd .
 
 
