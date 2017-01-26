@@ -1,4 +1,4 @@
-
+﻿
 # Git Cheat Sheet
 
 ## 1. Glossary of Terms
@@ -36,7 +36,7 @@
   * Add the new file into the working copy
     * git add newfile.txt
 
-  * Commit any changes you've made, and comment on those changes
+  * Commit any changes you've made, agitnd comment on those changes
     * git commit -a -m "created a new file for text"
 
   * Push changes back to the github repository
@@ -50,7 +50,7 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 ## 4. Basic windows command on comandline
-  * list commonds:
+  * list commands:
    * ls (Linux) help (Windows)
 
   * get information from a directory:
@@ -61,20 +61,28 @@
    * cd ..
   * create new file
    * echo "file content" >> filename.txt
+  *Delete folder
+   *rmdir /s /q folder name 
 
 
 ## 5. Branch Diagram
   * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
+  new_branch will be whatever you branch name is
  * tells you what branch you are on:
   * git branch
  * creating a new branch:
-  * git branch test
+  * git branch new_branch
  * deleting a branch:
-  * git branch -d test
+  * git branch -d new_branch
  * switch branch:
-  * git checkout test
+  * git checkout new_branch
  * merge branch:
   * git merge master
+ * change branch
+  *git checkout branch_name
+ *Push branch up to git
+  *git push origin new_branch 
+  
 
 ## 6. Category 6
   Clone repository
@@ -85,3 +93,13 @@
 ## 7. Basic Linux commands on comandline
   * list commonds:
    * ls
+
+
+
+
+*Shows what branch you're in
+ *git branch
+*Change which branch
+ *git checkout new_branch
+*Update branch
+ *git checkout
