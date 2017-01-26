@@ -49,14 +49,18 @@
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
+## 4. Basic windows command on comandline
+  * list commonds:
+   * ls (Linux) help (Windows)
 
-## 4. Basic windows commands on comandline
   * get information from a directory:
-   * dir
+   * dir (W) 
   * get into an existing directory/ folder:
    * cd itc134
   * get out from an existing directory/ folder:
    * cd ..
+  * create new file
+   * echo "file content" >> filename.txt
 
 
 ## 5. Branch Diagram
@@ -73,6 +77,9 @@
   * git merge master
 
 ## 6. Category 6
+  Clone repository
+  
+   git clone http://github.com/user/respository.git
 
 
 ## 7. Basic Linux commands on comandline
