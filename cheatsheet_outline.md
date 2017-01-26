@@ -17,13 +17,16 @@
 
 ## 2. Downloading a working copy, making changes, and pushing those changes back to the github repository
   * Download repository using Git CMD (a command line shell that is installed with Git for Windows):
-    * C:\Users\gzhang>git config --global user.name "your username"
-    * C:\Users\gzhang>git config --global user.email yourusername@gmail.com
-    * C:\Users\gzhang>git clone https://github.com/yourusername/hello-world.git
+    * C:\Users\yourusername>git config --global user.name "your username"
+    * C:\Users\yourusername>git config --global user.email yourusername@gmail.com
+    * C:\Users\yourusername>git clone https://github.com/yourusername/hello-world.git
   
   * Try this if it doesn't work:
     * git config --system http.sslverify false
     * view directory: dir
+    
+  * Downloading the work repository:
+    * git clone http://github.com/user/respository.git
     
   * Change directory into hello-world
     * cd hello-world
