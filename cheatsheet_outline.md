@@ -49,32 +49,31 @@
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
-## 4. Basic windows command on comandline
-  * list commonds:
-   * ls (Linux) help (Windows)
-
+## 4. Basic Windows Command on Command Line
+  * list commands:
+    * ls (Linux) help (Windows)
   * get information from a directory:
-   * dir (W) 
+    * dir (W) 
   * get into an existing directory/ folder:
-   * cd itc134
+    * cd itc134
   * get out from an existing directory/ folder:
-   * cd ..
+    * cd ..
   * create new file
-   * echo "file content" >> filename.txt
+    * echo "file content" >> filename.txt
 
 
 ## 5. Branch Diagram
   * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
- * tells you what branch you are on:
-  * git branch
- * creating a new branch:
-  * git branch test
- * deleting a branch:
-  * git branch -d test
- * switch branch:
-  * git checkout test
- * merge branch:
-  * git merge master
+  * tells you what branch you are on:
+    * git branch
+  * creating a new branch:
+    * git branch test
+  * deleting a branch:
+    * git branch -d test
+  * switch branch:
+    * git checkout test
+  * merge branch:
+    * git merge master
 
 ## 6. Category 6
   Clone repository
