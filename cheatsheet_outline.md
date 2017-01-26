@@ -1,4 +1,5 @@
- # Git Cheat Sheet
+
+# Git Cheat Sheet
 
 ## 1. Glossary of Terms
   * branch: an active line of development
@@ -29,7 +30,7 @@
     * dir
 
   * Create new file:
-    * echo "Nother new file!!!" >> newfile.txt
+    * echo "Another new file!!!" >> newfile.txt
     * dir
 
   * Add the new file into the working copy
@@ -40,15 +41,18 @@
 
   * Push changes back to the github repository
     * git push
+    
+  * removing a directory (get out of the folder first)
+    * rmdir /s / q itc-134
 
 ## 3. Setting Up Git for Windows
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
-
 ## 4. Basic windows command on comandline
   * list commonds:
    * ls (Linux) help (Windows)
+
   * get information from a directory:
    * dir (W) 
   * get into an existing directory/ folder:
@@ -61,7 +65,16 @@
 
 ## 5. Branch Diagram
   * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
-
+ * tells you what branch you are on:
+  * git branch
+ * creating a new branch:
+  * git branch test
+ * deleting a branch:
+  * git branch -d test
+ * switch branch:
+  * git checkout test
+ * merge branch:
+  * git merge master
 
 ## 6. Category 6
   Clone repository
@@ -69,4 +82,6 @@
    git clone http://github.com/user/respository.git
 
 
-## 7. Category 7
+## 7. Basic Linux commands on comandline
+  * list commonds:
+   * ls
