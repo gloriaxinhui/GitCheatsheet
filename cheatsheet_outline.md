@@ -48,6 +48,15 @@
     
   * removing a directory (get out of the folder first)
     * rmdir /s / q itc-134
+   
+  * Initializing a directory as a Git repo
+    * git init
+    
+  * Stashing away uncommited mods temporarily
+    * git stash
+    
+  * Re-applying last stashed changes
+    * git stash apply
 
 ## 3. Setting Up Git for Windows
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
@@ -63,14 +72,17 @@
    * cd ..
   *going back to last/previous directory/folder:
    * cd .
+  *show your commit logs
+   * git log
 
 
 ## 5. Branch Diagram
-  * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
  * tells you what branch you are on:
   * git branch
  * creating a new branch:
   * git branch test
+ * creating a new branch and switching to it:
+  * git branch -b "branch_name"
  * deleting a branch:
   * git branch -d test
  * switch branch:
