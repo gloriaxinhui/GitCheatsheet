@@ -35,6 +35,10 @@
   * Create new file:
     * echo "Another new file!!!" >> newfile.txt
     * dir
+    * this also allows you to add more to the file
+  
+  *Overwriting a file
+    * echo "Overwriting new file!!!">newfile.txt
 
   * Add the new file into the working copy
     * git add newfile.txt
@@ -47,6 +51,15 @@
     
   * removing a directory (get out of the folder first)
     * rmdir /s / q itc-134
+   
+  * Initializing a directory as a Git repo
+    * git init
+    
+  * Stashing away uncommited mods temporarily
+    * git stash
+    
+  * Re-applying last stashed changes
+    * git stash apply
 
 ## 3. Setting Up Git for Windows
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
@@ -61,11 +74,17 @@
   * get into an existing directory/ folder:
     * cd itc134
   * get out from an existing directory/ folder:
+
     * cd ..
+  * going back to last/previous directory/folder:
+    * cd .
+  * show your commit logs
+    * git log
   * create new file
     * echo "file content" >> filename.txt
   * Delete folder
     * rmdir /s /q folder name 
+
 
 
 ## 5. Branch Diagram
@@ -73,6 +92,8 @@
    * git branch
  * creating a new branch:
    * git branch new_branch
+ * creating a new branch and switching to it:
+   * git branch -b "branch_name"
  * deleting a branch:
    * git branch -d new_branch
  * switch branch:
