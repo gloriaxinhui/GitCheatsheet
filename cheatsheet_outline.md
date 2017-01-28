@@ -1,4 +1,4 @@
-﻿
+
 # Git Cheat Sheet
 
 ## 1. Glossary of Terms
@@ -17,13 +17,16 @@
 
 ## 2. Downloading a working copy, making changes, and pushing those changes back to the github repository
   * Download repository using Git CMD (a command line shell that is installed with Git for Windows):
-    * C:\Users\gzhang>git config --global user.name "your username"
-    * C:\Users\gzhang>git config --global user.email yourusername@gmail.com
-    * C:\Users\gzhang>git clone https://github.com/yourusername/hello-world.git
+    * C:\Users\yourusername>git config --global user.name "your username"
+    * C:\Users\yourusername>git config --global user.email yourusername@gmail.com
+    * C:\Users\yourusername>git clone https://github.com/yourusername/hello-world.git
   
   * Try this if it doesn't work:
     * git config --system http.sslverify false
     * view directory: dir
+    
+  * Downloading the work repository:
+    * C:\Users\yourusername>git clone http://github.com/user/respository.git
     
   * Change directory into hello-world
     * cd hello-world
@@ -49,57 +52,48 @@
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
+
 ## 4. Basic windows command on comandline
   * list commands:
-   * ls (Linux) help (Windows)
-
+    * ls (Linux) help (Windows)
   * get information from a directory:
-   * dir (W) 
+    * dir (W) 
   * get into an existing directory/ folder:
-   * cd itc134
+    * cd itc134
   * get out from an existing directory/ folder:
-   * cd ..
+    * cd ..
   * create new file
-   * echo "file content" >> filename.txt
-  *Delete folder
-   *rmdir /s /q folder name 
+    * echo "file content" >> filename.txt
+  * Delete folder
+    * rmdir /s /q folder name 
 
 
 ## 5. Branch Diagram
-  * Craig will take a stab at creating a simple Branch, Pull Request, Merge diagram.
-  new_branch will be whatever you branch name is
  * tells you what branch you are on:
-  * git branch
+   * git branch
  * creating a new branch:
-  * git branch new_branch
+   * git branch new_branch
  * deleting a branch:
-  * git branch -d new_branch
+   * git branch -d new_branch
  * switch branch:
-  * git checkout new_branch
+   * git checkout new_branch
  * merge branch:
-  * git merge master
+   * git merge master
  * change branch
-  *git checkout branch_name
- *Push branch up to git
-  *git push origin new_branch 
+   * git checkout branch_name
+ * Push branch up to git
+   * git push origin new_branch 
+ * Shows what branch you're in
+   * git branch
+ * Update branch
+   * git checkout
   
 
 ## 6. Category 6
-  Clone repository
-  
-   git clone http://github.com/user/respository.git
+ * Clone repository 
+   * git clone http://github.com/user/respository.git
 
 
 ## 7. Basic Linux commands on comandline
   * list commonds:
    * ls
-
-
-
-
-*Shows what branch you're in
- *git branch
-*Change which branch
- *git checkout new_branch
-*Update branch
- *git checkout
