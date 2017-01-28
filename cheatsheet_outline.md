@@ -17,13 +17,16 @@
 
 ## 2. Downloading a working copy, making changes, and pushing those changes back to the github repository
   * Download repository using Git CMD (a command line shell that is installed with Git for Windows):
-    * C:\Users\gzhang>git config --global user.name "your username"
-    * C:\Users\gzhang>git config --global user.email yourusername@gmail.com
-    * C:\Users\gzhang>git clone https://github.com/yourusername/hello-world.git
+    * C:\Users\yourusername>git config --global user.name "your username"
+    * C:\Users\yourusername>git config --global user.email yourusername@gmail.com
+    * C:\Users\yourusername>git clone https://github.com/yourusername/hello-world.git
   
   * Try this if it doesn't work:
     * git config --system http.sslverify false
     * view directory: dir
+    
+  * Downloading the work repository:
+    * C:\Users\yourusername>git clone http://github.com/user/respository.git
     
   * Change directory into hello-world
     * cd hello-world
@@ -40,7 +43,7 @@
   * Add the new file into the working copy
     * git add newfile.txt
 
-  * Commit any changes you've made, and comment on those changes
+  * Commit any changes you've made, agitnd comment on those changes
     * git commit -a -m "created a new file for text"
 
   * Push changes back to the github repository
@@ -63,34 +66,53 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 
-## 4. Basic windows commands on comandline
+## 4. Basic windows command on comandline
+  * list commands:
+    * ls (Linux) help (Windows)
   * get information from a directory:
-   * dir
+    * dir (W) 
   * get into an existing directory/ folder:
-   * cd itc134
+    * cd itc134
   * get out from an existing directory/ folder:
-   * cd ..
-  *going back to last/previous directory/folder:
-   * cd .
-  *show your commit logs
-   * git log
+
+    * cd ..
+  * going back to last/previous directory/folder:
+    * cd .
+  * show your commit logs
+    * git log
+  * create new file
+    * echo "file content" >> filename.txt
+  * Delete folder
+    * rmdir /s /q folder name 
+
 
 
 ## 5. Branch Diagram
  * tells you what branch you are on:
-  * git branch
+   * git branch
  * creating a new branch:
-  * git branch test
+   * git branch new_branch
  * creating a new branch and switching to it:
-  * git branch -b "branch_name"
+   * git branch -b "branch_name"
  * deleting a branch:
-  * git branch -d test
+   * git branch -d new_branch
  * switch branch:
-  * git checkout test
+   * git checkout new_branch
  * merge branch:
-  * git merge master
+   * git merge master
+ * change branch
+   * git checkout branch_name
+ * Push branch up to git
+   * git push origin new_branch 
+ * Shows what branch you're in
+   * git branch
+ * Update branch
+   * git checkout
+  
 
 ## 6. Category 6
+ * Clone repository 
+   * git clone http://github.com/user/respository.git
 
 
 ## 7. Basic Linux commands on comandline
