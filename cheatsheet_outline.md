@@ -83,7 +83,7 @@
     * rmdir /s /q folder name 
 
 
-## 5. Branching on windows commondline.
+## 5. Branching on windows comandline.
  * tells you what branch you are on:
    * git branch
  * creating a new branch:
