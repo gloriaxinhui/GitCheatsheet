@@ -39,7 +39,7 @@
   * Add the new file into the working copy
     * git add newfile.txt
 
-  * Commit any changes you've made, and comment on those changes
+  * Commit any changes you've made, agitnd comment on those changes
     * git commit -a -m "created a new file for text"
 
   * Push changes back to the github repository
@@ -52,7 +52,8 @@
   * git config --system http.sslcainfo "C:\Users\CPeterson\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
-## 4. Basic Windows Command on Command Line
+
+## 4. Basic windows command on comandline
   * list commands:
     * ls (Linux) help (Windows)
   * get information from a directory:
@@ -63,24 +64,34 @@
     * cd ..
   * create new file
     * echo "file content" >> filename.txt
+  * Delete folder
+    * rmdir /s /q folder name 
 
 
 ## 5. Branch Diagram
-  * tells you what branch you are on:
-    * git branch
-  * creating a new branch:
-    * git branch test
-  * deleting a branch:
-    * git branch -d test
-  * switch branch:
-    * git checkout test
-  * merge branch:
-    * git merge master
+ * tells you what branch you are on:
+   * git branch
+ * creating a new branch:
+   * git branch new_branch
+ * deleting a branch:
+   * git branch -d new_branch
+ * switch branch:
+   * git checkout new_branch
+ * merge branch:
+   * git merge master
+ * change branch
+   * git checkout branch_name
+ * Push branch up to git
+   * git push origin new_branch 
+ * Shows what branch you're in
+   * git branch
+ * Update branch
+   * git checkout
+  
 
 ## 6. Category 6
-  Clone repository
-  
-   git clone http://github.com/user/respository.git
+ * Clone repository 
+   * git clone http://github.com/user/respository.git
 
 
 ## 7. Basic Linux commands on comandline
