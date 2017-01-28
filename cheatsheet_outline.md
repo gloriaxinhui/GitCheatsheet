@@ -19,14 +19,12 @@
   * Download repository using Git CMD (a command line shell that is installed with Git for Windows):
     * C:\Users\yourusername>git config --global user.name "your username"
     * C:\Users\yourusername>git config --global user.email yourusername@gmail.com
+  * Clone repository 
     * C:\Users\yourusername>git clone https://github.com/yourusername/hello-world.git
   
   * Try this if it doesn't work:
     * git config --system http.sslverify false
     * view directory: dir
-    
-  * Downloading the work repository:
-    * C:\Users\yourusername>git clone http://github.com/user/respository.git
     
   * Change directory into hello-world
     * cd hello-world
@@ -37,7 +35,7 @@
     * dir
     * this also allows you to add more to the file
   
-  *Overwriting a file
+  * Overwriting a file
     * echo "Overwriting new file!!!">newfile.txt
 
   * Add the new file into the working copy
@@ -66,7 +64,7 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 
-## 4. Basic windows command on comandline
+## 4. Basic commands on comandline
   * list commands:
     * ls (Linux) help (Windows)
   * get information from a directory:
@@ -74,7 +72,6 @@
   * get into an existing directory/ folder:
     * cd itc134
   * get out from an existing directory/ folder:
-
     * cd ..
   * going back to last/previous directory/folder:
     * cd .
@@ -86,8 +83,7 @@
     * rmdir /s /q folder name 
 
 
-
-## 5. Branch Diagram
+## 5. Branching on windows commondline.
  * tells you what branch you are on:
    * git branch
  * creating a new branch:
@@ -110,11 +106,6 @@
    * git checkout
   
 
-## 6. Category 6
- * Clone repository 
-   * git clone http://github.com/user/respository.git
-
-
-## 7. Basic Linux commands on comandline
-  * list commonds:
-   * ls
+## 6. Branch Diagram
+ * This Diagram will be illustrated by Craig! 
+ * It will be a graphic, no text will be displayed here. 
