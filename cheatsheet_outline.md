@@ -38,10 +38,10 @@
   * Overwriting a file
     * echo "Overwriting new file!!!">newfile.txt
 
-  * Add the new file into the working copy
+  * Add a new file to version control
     * git add newfile.txt
 
-  * Commit any changes you've made, agitnd comment on those changes
+  * Commit any changes you've made, and comment on those changes
     * git commit -a -m "created a new file for text"
 
   * Push changes back to the github repository
@@ -64,7 +64,7 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 
-## 4. Basic commands on comandline
+## 4. Basic commands on command line
   * list commands:
     * ls (Linux) help (Windows)
   * get information from a directory:
@@ -83,7 +83,7 @@
     * rmdir /s /q folder name 
 
 
-## 5. Branching on windows comandline.
+## 5. Branching on windows command line.
  * tells you what branch you are on:
    * git branch
  * creating a new branch:
