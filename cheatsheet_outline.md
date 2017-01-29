@@ -74,7 +74,7 @@
     * cd directoryname (Linux and Windows)
   * Move up one directory level:
     * cd .. (Linux and Windows)
-  * Change back to last directory you were in:
+  * Change back to previous directory
     * cd - (Linux only)
   * Create new file
     * echo "file content" >> filename.txt (Linux and Windows)
