@@ -13,6 +13,7 @@
   * pull: pulling a branch means to fetch it and merge it. for example, if someone edits a remote file you’re both working on, you’ll          want to pull in the changes to your local copy
   * push: to send committed changes to a remote repository
   * repository: a collection of project files, documentation, and revision history
+  * working copy: a copy of a repository that lives on your local computer temoporarily
 
 
 ## 2. Downloading a working copy, making changes, and pushing those changes back to the github repository
