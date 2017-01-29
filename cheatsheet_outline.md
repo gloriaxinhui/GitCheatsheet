@@ -47,8 +47,8 @@
   * Push changes back to the github repository
     * git push
     
-  * removing a directory (get out of the folder first)
-    * rmdir /s / q itc-134
+  * Remove your working copy directory (move up one to the parent folder first)
+    * rmdir hello-world /s /q
    
   * Initializing a directory as a Git repo
     * git init
