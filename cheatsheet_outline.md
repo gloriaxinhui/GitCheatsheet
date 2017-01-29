@@ -42,7 +42,7 @@
     * git add newfile.txt
 
   * Commit any changes you've made, and comment on those changes
-    * git commit -a -m "created a new file for text"
+    * git commit -a -m "created a new text file"
 
   * Push changes back to the github repository
     * git push
