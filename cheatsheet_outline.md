@@ -66,22 +66,24 @@
 
 
 ## 4. Basic commands on command line
-  * list commands:
-    * ls (Linux) help (Windows)
-  * get information from a directory:
-    * dir (W) 
-  * get into an existing directory/ folder:
-    * cd itc134
-  * get out from an existing directory/ folder:
-    * cd ..
-  * going back to last/previous directory/folder:
-    * cd .
-  * show your commit logs
+  * Display list of commands:
+    * help (Linux and Windows)
+  * List directories/files:
+    * ls (Linux) dir (Windows)
+  * Change to an existing directory:
+    * cd directoryname (Linux and Windows)
+  * Move up one directory level:
+    * cd .. (Linux and Windows)
+  * Change back to last directory you were in:
+    * cd - (Linux only)
+  * Create new file
+    * echo "file content" >> filename.txt (Linux and Windows)
+  * Delete file
+    * rm filename (Linux) del filename (Windows)
+  * Delete directory
+    * rmdir /s /q directoryname (Windows) rm -rf directoryname (Linux)
+  * Show your git commit logs
     * git log
-  * create new file
-    * echo "file content" >> filename.txt
-  * Delete folder
-    * rmdir /s /q folder name 
 
 
 ## 5. Branching on windows command line.
