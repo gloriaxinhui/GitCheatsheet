@@ -87,22 +87,25 @@
 
 
 ## 5. Branching on windows command line.
- * tells you what branch you are on:
-   * git branch
- * creating a new branch:
-   * git branch new_branch
- * creating a new branch and switching to it:
-   * git branch -b "branch_name"
- * deleting a branch:
-   * git branch -d new_branch
- * switch branch:
-   * git checkout new_branch
- * merge branch:
-   * git merge master
- * Push branch up to git
-   * git push origin new_branch 
- * Update branch
-   * git checkout
+  * tells you what branch you are on:
+    * git branch
+  * creating a new branch:
+    * git branch new_branch
+  * creating a new branch and switching to it:
+    * git branch -b "branch_name"
+  * switch branch:
+    * git checkout new_branch
+  * deleting a branch:
+    * git branch -d new_branch
+  * rename current branch:
+    * git branch -m new_branch_name
+  * merge specified branch into current branch:
+    * git merge master
+  * Push branch up to git
+    * git push origin new_branch
+  * Push changes to branch up to git
+    * git push
+   
   
 
 ## 6. Branch Diagram
