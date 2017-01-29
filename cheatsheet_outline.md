@@ -13,6 +13,7 @@
   * pull: pulling a branch means to fetch it and merge it. for example, if someone edits a remote file you’re both working on, you’ll          want to pull in the changes to your local copy
   * push: to send committed changes to a remote repository
   * repository: a collection of project files, documentation, and revision history
+  * working copy: a copy of a repository that lives on your local computer temoporarily
 
 
 ## 2. Downloading a working copy, making changes, and pushing those changes back to the github repository
@@ -38,17 +39,17 @@
   * Overwriting a file
     * echo "Overwriting new file!!!">newfile.txt
 
-  * Add the new file into the working copy
+  * Add a new file to version control
     * git add newfile.txt
 
-  * Commit any changes you've made, agitnd comment on those changes
-    * git commit -a -m "created a new file for text"
+  * Commit any changes you've made, and comment on those changes
+    * git commit -a -m "created a new text file"
 
   * Push changes back to the github repository
     * git push
     
-  * removing a directory (get out of the folder first)
-    * rmdir /s / q itc-134
+  * Remove your working copy directory (move up one to the parent folder first)
+    * rmdir hello-world /s /q
    
   * Initializing a directory as a Git repo
     * git init
@@ -64,46 +65,47 @@
     * This command fixes an initial error where Git does not know where this certificate is installed.
 
 
-## 4. Basic commands on comandline
-  * list commands:
-    * ls (Linux) help (Windows)
-  * get information from a directory:
-    * dir (W) 
-  * get into an existing directory/ folder:
-    * cd itc134
-  * get out from an existing directory/ folder:
-    * cd ..
-  * going back to last/previous directory/folder:
-    * cd .
-  * show your commit logs
+## 4. Basic commands on command line
+  * Display list of commands:
+    * help (Linux and Windows)
+  * List directories/files:
+    * ls (Linux) dir (Windows)
+  * Change to an existing directory:
+    * cd directoryname (Linux and Windows)
+  * Move up one directory level:
+    * cd .. (Linux and Windows)
+  * Change back to previous directory
+    * cd - (Linux only)
+  * Create new file
+    * echo "file content" >> filename.txt (Linux and Windows)
+  * Delete file
+    * rm filename (Linux) del filename (Windows)
+  * Delete directory
+    * rmdir /s /q directoryname (Windows) rm -rf directoryname (Linux)
+  * Show your git commit logs
     * git log
-  * create new file
-    * echo "file content" >> filename.txt
-  * Delete folder
-    * rmdir /s /q folder name 
 
 
-## 5. Branching on windows comandline.
- * tells you what branch you are on:
-   * git branch
- * creating a new branch:
-   * git branch new_branch
- * creating a new branch and switching to it:
-   * git branch -b "branch_name"
- * deleting a branch:
-   * git branch -d new_branch
- * switch branch:
-   * git checkout new_branch
- * merge branch:
-   * git merge master
- * change branch
-   * git checkout branch_name
- * Push branch up to git
-   * git push origin new_branch 
- * Shows what branch you're in
-   * git branch
- * Update branch
-   * git checkout
+## 5. Branching on windows command line.
+  * tells you what branch you are on:
+    * git branch
+  * creating a new branch:
+    * git branch new_branch
+  * creating a new branch and switching to it:
+    * git branch -b "branch_name"
+  * switch branch:
+    * git checkout new_branch
+  * deleting a branch:
+    * git branch -d new_branch
+  * rename current branch:
+    * git branch -m new_branch_name
+  * merge specified branch into current branch:
+    * git merge master
+  * Push branch up to git
+    * git push origin new_branch
+  * Push changes to branch up to git
+    * git push
+   
   
 
 ## 6. Branch Diagram
