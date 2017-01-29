@@ -99,12 +99,8 @@
    * git checkout new_branch
  * merge branch:
    * git merge master
- * change branch
-   * git checkout branch_name
  * Push branch up to git
    * git push origin new_branch 
- * Shows what branch you're in
-   * git branch
  * Update branch
    * git checkout
   
