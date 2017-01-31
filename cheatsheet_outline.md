@@ -87,6 +87,8 @@
 
 
 ## 5. Branching on windows command line.
+  * display remote branches
+    * git branch -r
   * tells you what branch you are on:
     * git branch
   * creating a new branch:
